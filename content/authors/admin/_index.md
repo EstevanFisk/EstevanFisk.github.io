@@ -23,7 +23,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Data Scientist
+role: ''
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -136,7 +136,7 @@ skills:
       - name: Python
         description: ''
         percent: 100
-        icon: devicon/python-original
+        icon: devicon/python
       - name: R
         description: ''
         percent: 100
@@ -144,29 +144,29 @@ skills:
       - name: Visual Basic
         description: ''
         percent: 100
-        icon: cloud
+        icon: devicon/visualbasic
       - name: SQL
         description: ''
         percent: 75
-        icon: cloud
+        icon: devicon/azuresqldatabase
       - name: NoSQL
         description: ''
         percent: 50
-        icon: cloud
+        icon: devicon/mongodb
   - name: AI/ML Frameworks
     items:
       - name: Scikit-learn
         description: ''
         percent: 100
-        icon: code-bracket
+        icon: devicon/scikitlearn
       - name: TensorFlow
         description: ''
         percent: 75
-        icon: chart-bar
+        icon: devicon/tensorflow
       - name: PyTorch
         description: ''
         percent: 85
-        icon: cloud
+        icon: devicon/pytorch
       - name: Keras
         description: ''
         percent: 85
