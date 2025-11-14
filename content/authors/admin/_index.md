@@ -131,7 +131,7 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Programming/Query Languages
+  - name: Programming Languages
     items:
       - name: Python
         description: ''
@@ -145,14 +145,6 @@ skills:
         description: ''
         percent: 100
         icon: devicon/visualbasic
-      - name: SQL
-        description: ''
-        percent: 75
-        icon: devicon/azuresqldatabase
-      - name: NoSQL
-        description: ''
-        percent: 50
-        icon: devicon/mongodb
   - name: AI/ML Frameworks
     items:
       - name: Scikit-learn
@@ -170,7 +162,99 @@ skills:
       - name: Keras
         description: ''
         percent: 85
-        icon: cloud
+        icon: devicon/keras
+  - name: Databases
+    items:
+      - name: MS SQL
+        description: ''
+        percent: 75
+        icon: devicon/azuresqldatabase
+      - name: PostgresSQL
+        description: ''
+        percent: 75
+        icon: devicon/postgresql
+      - name: SQLite
+        description: ''
+        percent: 50
+        icon: devicon/sqlite
+      - name: MongoDB
+        description: ''
+        percent: 50
+        icon: devicon/mongodb
+  - name: Web & UI
+    items:
+      - name: Shiny
+        description: ''
+        percent: 100
+        icon: custom/Shiny_hex
+      - name: Streamlit
+        description: ''
+        percent: 100
+        icon: devicon/streamlit
+      - name: Plotly Dash
+        description: ''
+        percent: 100
+        icon: devicon/plotly
+  - name: Data Science
+    items:
+      - name: NumPy
+        description: ''
+        percent: 100
+        icon: devicon/numpy
+      - name: Pandas
+        description: ''
+        percent: 100
+        icon: devicon/pandas
+      - name: Plotly
+        description: ''
+        percent: 50
+        icon: devicon/plotly
+      - name: GG Plot2
+        description: ''
+        percent: 50
+        icon: custom/ggplot
+      - name: Apache Spark
+        description: ''
+        percent: 50
+        icon: devicon/apachespark
+  - name: Dev Tools
+    items:
+      - name: Git
+        description: ''
+        percent: 100
+        icon: devicon/git
+      - name: GitHub
+        description: ''
+        percent: 100
+        icon: devicon/github
+      - name: GitLab
+        description: ''
+        percent: 100
+        icon: devicon/gitlab
+      - name: Docker
+        description: ''
+        percent: 100
+        icon: devicon/docker
+      - name: Jupyter
+        description: ''
+        percent: 100
+        icon: devicon/jupyter
+      - name: Postman
+        description: ''
+        percent: 100
+        icon: devicon/postman
+      - name: VSCode
+        description: ''
+        percent: 100
+        icon: devicon/vscode
+      - name: Hugo
+        description: ''
+        percent: 100
+        icon: devicon/hugo
+      - name: R-Studio
+        description: ''
+        percent: 100
+        icon: devicon/rstudio
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -206,7 +290,7 @@ awards:
     icon: hero/trophy
     summary: |
       Explains Big Data impact, tools (Hadoop, Spark), and methods (MapReduce/RDDs); details Hadoop architecture (HDFS, Hive, HBase) and applies advanced Spark programming, including SQL optimization.
-  - title: Shiny Web Applications” & “Data Science for Business with R
+  - title: Shiny Web Applications & Data Science for Business with R
     url: https://www.business-science.io/
     date: '2022-09-01'
     awarder: Business Science University
