@@ -145,24 +145,20 @@ skills:
         description: ''
         percent: 100
         icon: devicon/visualbasic
-  - name: AI/ML Frameworks
+  - name: Web & UI
     items:
-      - name: Scikit-learn
+      - name: Shiny
         description: ''
         percent: 100
-        icon: devicon/scikitlearn
-      - name: TensorFlow
+        icon: custom/shiny
+      - name: Streamlit
         description: ''
-        percent: 75
-        icon: devicon/tensorflow
-      - name: PyTorch
+        percent: 100
+        icon: devicon/streamlit
+      - name: Plotly Dash
         description: ''
-        percent: 85
-        icon: devicon/pytorch
-      - name: Keras
-        description: ''
-        percent: 85
-        icon: devicon/keras
+        percent: 100
+        icon: devicon/plotly
   - name: Databases
     items:
       - name: MS SQL
@@ -181,22 +177,38 @@ skills:
         description: ''
         percent: 50
         icon: devicon/mongodb
-  - name: Web & UI
+  - name: AI/ML Frameworks
     items:
-      - name: Shiny
+      - name: Scikit-learn
         description: ''
         percent: 100
-        icon: custom/Shiny_hex
-      - name: Streamlit
+        icon: devicon/scikitlearn
+      - name: TensorFlow
         description: ''
-        percent: 100
-        icon: devicon/streamlit
-      - name: Plotly Dash
+        percent: 50
+        icon: devicon/tensorflow
+      - name: PyTorch
         description: ''
-        percent: 100
-        icon: devicon/plotly
+        percent: 50
+        icon: devicon/pytorch
+      - name: Keras
+        description: ''
+        percent: 50
+        icon: devicon/keras
+      - name: H2O
+        description: ''
+        percent: 50
+        icon: custom/h2o
   - name: Data Science
     items:
+      - name: Jupyter
+        description: ''
+        percent: 100
+        icon: devicon/jupyter
+      - name: R-Studio
+        description: ''
+        percent: 100
+        icon: devicon/rstudio
       - name: NumPy
         description: ''
         percent: 100
@@ -209,10 +221,10 @@ skills:
         description: ''
         percent: 50
         icon: devicon/plotly
-      - name: GG Plot2
+      - name: GGPlot2
         description: ''
         percent: 50
-        icon: custom/ggplot
+        icon: custom/ggplot2
       - name: Apache Spark
         description: ''
         percent: 50
@@ -226,7 +238,7 @@ skills:
       - name: GitHub
         description: ''
         percent: 100
-        icon: devicon/github
+        icon: brands/github
       - name: GitLab
         description: ''
         percent: 100
@@ -235,10 +247,6 @@ skills:
         description: ''
         percent: 100
         icon: devicon/docker
-      - name: Jupyter
-        description: ''
-        percent: 100
-        icon: devicon/jupyter
       - name: Postman
         description: ''
         percent: 100
@@ -251,26 +259,22 @@ skills:
         description: ''
         percent: 100
         icon: devicon/hugo
-      - name: R-Studio
-        description: ''
-        percent: 100
-        icon: devicon/rstudio
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking in the Rockies
+      - name: Reading
         description: ''
         percent: 80
-        icon: person-simple-walk
-      - name: Building Custom PCs
+        icon: book-open
+      - name: Board Games
         description: ''
         percent: 90
-        icon: cpu-chip
-      - name: Sci-Fi Reading
+        icon: 🎲
+      - name: Tennis
         description: ''
         percent: 70
-        icon: book-open
+        icon: 🎾
 
 languages:
   - name: English
