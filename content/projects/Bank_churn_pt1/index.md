@@ -3,7 +3,7 @@ title: Bank Customer Churn EDA and Prediction Part 1
 date: 2025-11-01
 links:
   - type: site
-    text: Kaggle Version
+    name: Kaggle Version
     url: https://www.kaggle.com/code/bgfootball04/bank-customer-churn-eda-and-prediction-part-1
   - type: site
     name: GitHub Repo
@@ -21,10 +21,7 @@ Project focuses on predicting bank customer churn (whether a customer will leave
 
 
 
-<iframe
-  src="./no_code_bank-customer-churn-eda-and-prediction-part-1"
+<iframe src="no_code_bank-customer-churn-eda-and-prediction-part-1"
   width="90%"
   height="1000px"
-  style="border:none;">
-
-</iframe>
+  style="border:none;"></iframe>
