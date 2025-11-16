@@ -1,6 +1,6 @@
 ---
 title: Bank Customer Churn EDA and Prediction Part 1
-summary: Project aims to build a predictive model using Kaggle data to forecast bank customer churn by analyzing personal and behavioral attributes, enabling banks to create targeted retention strategies.
+summary: Predicting Churn, Securing Loyalty: Modeling Bank Customer Retention.
 date: 2025-11-01
 authors:
     - admin
