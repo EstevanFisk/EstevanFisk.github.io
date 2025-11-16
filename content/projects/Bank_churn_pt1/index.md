@@ -19,4 +19,4 @@ Project focuses on predicting bank customer churn (whether a customer will leave
 
 
 
-<iframe src="/no_code_bank-customer-churn-eda-and-prediction-part-1.html" width="90%" height="1000px" style="border:none;"></iframe>
+<iframe src="./no_code_bank-customer-churn-eda-and-prediction-part-1.html" width="90%" height="1000px" style="border:none;"></iframe>
