@@ -1,6 +1,6 @@
 ---
 title: Bank Customer Churn EDA and Prediction Part 1
-summary: Predicting Churn, Securing Loyalty: Modeling Bank Customer Retention.
+summary: 'Predicting Churn, Securing Loyalty: Modeling Bank Customer Retention.'
 date: 2025-11-01
 authors:
     - admin
