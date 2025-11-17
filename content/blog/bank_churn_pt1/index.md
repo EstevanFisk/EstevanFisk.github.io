@@ -18,6 +18,7 @@ tags:
   - Hypothesis Testing
 image:
   caption: ''
+sitemap: true
 url: projects/bank_churn_pt1/
 ---
 
