@@ -78,7 +78,7 @@ work:
     date_start: 2022-02-01
     date_end: 2024-03-31
     summary: |
-      Taught Data Science/FinTech Bootcamp (ASU/edX), covering Machine Learning, Predictive Analytics, and Blockchain, while mentoring projects on experimental design and data pipelines.
+      Led instruction for Data Science/FinTech bootcamps, covering Machine Learning, Predictive Analytics, and Blockchain.
   - position: Production Manager/Data Scientist
     company_name: Informa Research Services
     company_url: 'https://www.informa.com/'
@@ -86,7 +86,7 @@ work:
     date_start: 2016-10-01
     date_end: 2019-03-31
     summary: |
-      Led a 7-person Production/Data Science team in a SaaS environment, managing ETL and analytics; built statistical models (85% accurate propensity model) and enhanced product offerings by 50%.
+      Led a 7-person Production/Data Science team in a SaaS environment, managing ETL, analytics, and contributing to 50% enhancement in product offerings.
   - position: Statistical Consultant
     company_name: Chipotle Mexican Grill
     company_url: 'https://www.chipotle.com/'
@@ -94,7 +94,7 @@ work:
     date_start: 2020-01-01
     date_end: 2020-05-31
     summary: |
-      Developed an NLP-driven ensemble model (Python) to enrich and cluster restaurant data with 90% accuracy, providing meaningful insights into store performance via advanced feature engineering.
+      Developed an NLP-driven ensemble model in Python to enrich, cluster, and provide insights into restaurant performance.
   - position: Consultant/Portfolio Analyst
     company_name: US Bank
     company_url: 'https://www.usbank.com/index.html'
@@ -102,7 +102,7 @@ work:
     date_start: 2016-03-01
     date_end: 2016-10-31
     summary: |
-      Analyzed raw operational data to develop new training metrics, leading to a significant 20% reduction in average training time.
+      Supported Wholesale Banking Lenders by compiling financial statement spreads, quarterly trend analysis, projections, and covenant testing.
   - position: Operations Research Analyst, Earned Value Management Specialist
     company_name: Defense Contract Management Agency (DCMA)
     company_url: 'https://www.dcma.mil/'
@@ -110,7 +110,7 @@ work:
     date_start: 2019-04-01
     date_end: 2022-07-31
     summary: |
-      Provided decision support for $1.3B+ programs by designing large-scale forecasting metrics, constructing NLP models for sentiment analysis, and achieving over $5M in direct cost savings.
+      Provided crucial oversight for Earned Value Management (EVM) compliance and performed in-depth cost/schedule review for $1.3B+ programs.
   - position: Operations Research Analyst, Cost Analyst
     company_name: Air Force Cost Analysis Agency (AFCAA)
     company_url: 'https://www.saffm.hq.af.mil/'
@@ -118,7 +118,7 @@ work:
     date_start: 2022-07-01
     date_end: 2025-09-30
     summary: |
-      Conducted non-advocate cost analysis (TS/SCI cleared) on programs exceeding $20B, improving R&D cost metrics by 10% and driving recommendations that resulted in over $1B in long-term savings.
+      Conducted non-advocate cost analysis (TS/SCI cleared) on programs exceeding $20B, driving recommendations that resulted in over $1B in long-term savings.
   - position: Credit Analyst
     company_name: Wells Fargo NA
     company_url: 'https://www.wellsfargo.com/'
@@ -126,7 +126,7 @@ work:
     date_start: 2014-01-01
     date_end: 2016-02-28
     summary: |
-      Performed credit analytics and compliance checks for high-exposure accounts; automated daily tasks (50% effort reduction) and used A/B testing to decrease phone call time by 15%.
+      Performed credit investigations and first-level analytics for accounts with $1M+ exposure, ensuring financial compliance and performance review.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -270,7 +270,7 @@ skills:
       - name: Board Games
         description: ''
         percent: 90
-        icon: 🎲
+        icon: 🎲🎲
       - name: Tennis
         description: ''
         percent: 70
