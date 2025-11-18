@@ -270,11 +270,11 @@ skills:
       - name: Board Games
         description: ''
         percent: 90
-        icon: dice
+        icon: 🎲
       - name: Tennis
         description: ''
         percent: 70
-        icon: racquet
+        icon: 🎾
 
 languages:
   - name: English
