@@ -21,7 +21,7 @@ sections:
   - block: markdown
     content:
       title: 'Data Science Solutions & Business Impact or Predictive Modeling & Advanced Analytics'
-      text: |-
+      text: |
       - ## End-to-End Model Development
         - Chipotle Mexican Restaurant (CSUF): Developed an **NLP** model in **Python and Streamlit** to analyze and cluster customer comments from both internal and external unstructured text data. This **led to 90% accuracy** in automated comment tagging, enabling efficient insight extraction.
         - Informa: Created a demand elasticity model using **exponential regression** and a propensity-to-buy model using **logistic regression** in R and R-Shiny. Propensity model achieved 85% accuracy, providing valuable insights for sales and marketing strategies.
