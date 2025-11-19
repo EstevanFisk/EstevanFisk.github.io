@@ -71,46 +71,6 @@ education:
       Graduated Summa Cum Laude.
 
 work:
-  - position: Data Science Adjunct Instructor
-    company_name: edX
-    company_url: 'https://www.edx.org/'
-    icon: ''
-    date_start: 2022-02-01
-    date_end: 2024-03-31
-    summary: |
-      Led instruction for Data Science/FinTech bootcamps, covering Machine Learning, Predictive Analytics, and Blockchain.
-  - position: Production Manager/Data Scientist
-    company_name: Informa Research Services
-    company_url: 'https://www.informa.com/'
-    icon: ''
-    date_start: 2016-10-01
-    date_end: 2019-03-31
-    summary: |
-      Led a 7-person Production/Data Science team in a SaaS environment, managing ETL, analytics, and contributing to 50% enhancement in product offerings.
-  - position: Statistical Consultant
-    company_name: Chipotle Mexican Grill
-    company_url: 'https://www.chipotle.com/'
-    icon: ''
-    date_start: 2020-01-01
-    date_end: 2020-05-31
-    summary: |
-      Developed an NLP-driven ensemble model in Python to enrich, cluster, and provide insights into restaurant performance.
-  - position: Consultant/Portfolio Analyst
-    company_name: US Bank
-    company_url: 'https://www.usbank.com/index.html'
-    icon: ''
-    date_start: 2016-03-01
-    date_end: 2016-10-31
-    summary: |
-      Supported Wholesale Banking Lenders by compiling financial statement spreads, quarterly trend analysis, projections, and covenant testing.
-  - position: Operations Research Analyst, Earned Value Management Specialist
-    company_name: Defense Contract Management Agency (DCMA)
-    company_url: 'https://www.dcma.mil/'
-    icon: ''
-    date_start: 2019-04-01
-    date_end: 2022-07-31
-    summary: |
-      Provided crucial oversight for Earned Value Management (EVM) compliance and performed in-depth cost/schedule review for $1.3B+ programs.
   - position: Operations Research Analyst, Cost Analyst
     company_name: Air Force Cost Analysis Agency (AFCAA)
     company_url: 'https://www.saffm.hq.af.mil/'
@@ -119,6 +79,46 @@ work:
     date_end: 2025-09-30
     summary: |
       Conducted non-advocate cost analysis (TS/SCI cleared) on programs exceeding $20B, driving recommendations that resulted in over $1B in long-term savings.
+  - position: Data Science Adjunct Instructor
+    company_name: edX
+    company_url: 'https://www.edx.org/'
+    icon: ''
+    date_start: 2022-02-01
+    date_end: 2024-03-31
+    summary: |
+      Led instruction for Data Science/FinTech bootcamps, covering Machine Learning, Predictive Analytics, and Blockchain.
+  - position: Statistical Consultant
+    company_name: Chipotle Mexican Grill
+    company_url: 'https://www.chipotle.com/'
+    icon: ''
+    date_start: 2020-01-01
+    date_end: 2020-05-31
+    summary: |
+      Developed an NLP-driven ensemble model in Python to enrich, cluster, and provide insights into restaurant performance.
+  - position: Operations Research Analyst, Earned Value Management Specialist
+    company_name: Defense Contract Management Agency (DCMA)
+    company_url: 'https://www.dcma.mil/'
+    icon: ''
+    date_start: 2019-04-01
+    date_end: 2022-07-31
+    summary: |
+      Provided crucial oversight for Earned Value Management (EVM) compliance and performed in-depth cost/schedule review for $1.3B+ programs.
+  - position: Production Manager/Data Scientist
+    company_name: Informa Research Services
+    company_url: 'https://www.informa.com/'
+    icon: ''
+    date_start: 2016-10-01
+    date_end: 2019-03-31
+    summary: |
+      Led a 7-person Production/Data Science team in a SaaS environment, managing ETL, analytics, and contributing to 50% enhancement in product offerings.
+  - position: Consultant/Portfolio Analyst
+    company_name: US Bank
+    company_url: 'https://www.usbank.com/index.html'
+    icon: ''
+    date_start: 2016-03-01
+    date_end: 2016-10-31
+    summary: |
+      Supported Wholesale Banking Lenders by compiling financial statement spreads, quarterly trend analysis, projections, and covenant testing.
   - position: Credit Analyst
     company_name: Wells Fargo NA
     company_url: 'https://www.wellsfargo.com/'
