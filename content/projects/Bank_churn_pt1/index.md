@@ -15,8 +15,8 @@ tags:
   - Hypothesis Testing
 sitemap: true
 share: false
-#weight: 10
-#featured: true
+# weight: 10
+# featured: true
 ---
 
 Project focuses on predicting bank customer churn (whether a customer will leave or stay) using various personal and behavioral attributes. Customer retention is vital for banks, as keeping current customers is significantly more cost-effective than gaining new ones. By identifying the key factors driving churn, banks can develop targeted loyalty and retention strategies to minimize customer turnover. We will build a predictive model using a dataset from Kaggle containing customer information and behavioral data.
