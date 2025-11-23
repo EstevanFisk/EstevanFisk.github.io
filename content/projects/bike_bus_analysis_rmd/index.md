@@ -7,7 +7,7 @@ links:
     url: https://github.com/EstevanFisk/bike_business_analysis_rmarkdown
 tags:
   - R
-  - R-Markdown
+  - R Markdown
   - Dashboard
   - Prediction
   - Feature Engineering
@@ -15,7 +15,6 @@ sitemap: true
 share: false
 #weight: 30
 ---
-
 
 This project demonstrates my capability in R by rebuilding a sales analysis dashboard originally developed at [Business Science University](https://www.business-science.io/). The solution uses R-Markdown to present actionable insights into a bicycle company's revenue. The core of the dashboard allows users to break down sales by total, category, and time series (quarterly, monthly, or weekly), with additional filtering to analyze specific bicycle types. This experience was a great refresher on building effective, interactive data visualizations.
 
