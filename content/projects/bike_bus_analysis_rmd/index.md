@@ -14,6 +14,7 @@ tags:
 sitemap: true
 share: false
 weight: 20
+featured: true
 ---
 
 
