@@ -1,10 +1,10 @@
 ---
-title: Bicycle Business Analysis Using R-Markdown
+title: "Bicycle Business Analysis Using R-Markdown"
 date: 2025-11-10
 links:
   - type: site
     name: GitHub Repo
-    url: https://github.com/EstevanFisk/bike_business_analysis_rmarkdown.git
+    url: https://github.com/EstevanFisk/bike_business_analysis_rmarkdown
 tags:
   - R
   - R-Markdown
