@@ -7,7 +7,7 @@ links:
     url: https://github.com/EstevanFisk/bike_business_analysis_rmarkdown
 tags:
   - R
-  - R Markdown
+  - R-Markdown
   - Dashboard
   - Prediction
   - Feature Engineering
