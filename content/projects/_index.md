@@ -24,5 +24,5 @@ sections:
       show_read_time: false
       show_read_more: false
       sort_by: 'weight'
-featured: true
+#featured: true
 ---
