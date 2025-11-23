@@ -13,9 +13,12 @@ tags:
   - Feature Engineering
 sitemap: true
 share: false
+weight: 30
 ---
 
 This project demonstrates my capability in R by rebuilding a sales analysis dashboard originally developed at [Business Science University](https://www.business-science.io/). The solution uses R-Markdown to present actionable insights into a bicycle company's revenue. The core of the dashboard allows users to break down sales by total, category, and time series (quarterly, monthly, or weekly), with additional filtering to analyze specific bicycle types. This experience was a great refresher on building effective, interactive data visualizations.
+
+<!--more-->
 
 ## Dashboard Example (clean with no code showing)
 <iframe src="/uploads/notebooks/bike_bus_analysis_rmd/no_code_sales_report.html" width="100%" height="1000px" style="border:none;"></iframe>
