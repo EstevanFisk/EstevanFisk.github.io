@@ -15,7 +15,7 @@ tags:
   - Hypothesis Testing
 sitemap: true
 share: false
-weight: 10
+weight: 1
 featured: true
 ---
 
