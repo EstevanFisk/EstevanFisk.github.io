@@ -14,6 +14,6 @@ image:
   caption: ''
 sitemap: true
 url: projects/bike-bus-analysis-rmd/
-draft: true
+draft: false
 ---
 
