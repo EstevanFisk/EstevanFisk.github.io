@@ -1,7 +1,6 @@
 ---
 title: Bicycle Business Analysis Using R-Markdown
 date: 2025-11-10
-weight: 5
 links:
   - type: site
     name: GitHub Repo
@@ -14,6 +13,7 @@ tags:
   - Feature Engineering
 sitemap: true
 share: false
+#weight: 30
 ---
 
 
