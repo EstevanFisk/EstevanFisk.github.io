@@ -1,6 +1,6 @@
 ---
 title: Bicycle Business Analysis Using R-Markdown
-summary: 'R-Markdown dashboards and machine learning models deliver actionable sales insights and predict optimal pricing for a bicycle companys new product line.'
+summary: "R-Markdown dashboards and machine learning models deliver actionable sales insights and predict optimal pricing for a bicycle company's new product line."
 date: 2025-11-10
 authors:
     - admin
@@ -14,5 +14,5 @@ image:
   caption: ''
 sitemap: true
 url: projects/bike-bus-analysis-rmd/
-draft: true
+draft: false
 ---
