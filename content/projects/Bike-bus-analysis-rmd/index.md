@@ -26,7 +26,6 @@ The core of the dashboard allows users to break down sales by total, category, a
 <iframe src="/uploads/notebooks/bike_bus_analysis_rmd/sales_report.html" width="100%" height="1000px" style="border:none;"></iframe>
 
 
-
 ## Product Analysis Report Example
 
 This portfolio piece addresses a strategic Research and Development (R&D) challenge: benchmarking the existing product line to identify opportunities for new products and optimal pricing. The analysis involved segmentation of the current bicycle inventory, leading to a market gap analysis that revealed viable unserved bicycle combinations. We then utilized machine learning to predict potential price points for the newly identified bicycles based on the features and pricing of existing inventory. Models tested were: linear (with and without regularization), decision tree, random forest, and XGBoost. XGBoost model was ultimately selected as the final predictive solution for its superior performance.
