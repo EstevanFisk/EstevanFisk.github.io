@@ -2,9 +2,11 @@
 title: "R-Powered Analytical Reporting: Sales, Product Pricing, and Customer Segmentation"
 date: 2025-11-10
 links:
-  - type: site
+  - type: code
     name: GitHub Repo
     url: https://github.com/EstevanFisk/bike_business_analysis_rmarkdown
+    icon: github
+    icon_pack: brands
 tags:
   - R
   - R-Markdown

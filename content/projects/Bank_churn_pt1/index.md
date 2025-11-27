@@ -2,12 +2,14 @@
 title: Bank Customer Churn EDA and Prediction Part 1
 date: 2025-11-01
 links:
-  - type: site
+  - type: code
     name: Kaggle Version
     url: https://www.kaggle.com/code/bgfootball04/bank-customer-churn-eda-and-prediction-part-1
-  - type: site
+  - type: code
     name: GitHub Repo
     url: https://github.com/EstevanFisk/Bank-Customer-Churn-EDA-and-Prediction-Part-1
+    icon: github
+    icon_pack: brands
 tags:
   - Python
   - Prediction

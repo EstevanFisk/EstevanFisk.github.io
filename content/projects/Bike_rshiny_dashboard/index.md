@@ -2,9 +2,11 @@
 title: Predictive Operations Control Center on Shiny Dashboards
 date: 2025-11-15
 links:
-  - type: site
+  - type: code
     name: GitHub Repo
     url: https://github.com/EstevanFisk/Bike_sales_dashboard_RShiny
+    icon: github
+    icon_pack: brands
   - type: site
     name: Demand Forecasting App
     url: https://estevanfisk.shinyapps.io/sales_dashboard_forecast_app/
