@@ -1,5 +1,5 @@
 ---
-title: R-Powered Analytical Reporting: Sales, Product Pricing, and Customer Segmentation
+title: "R-Powered Analytical Reporting: Sales, Product Pricing, and Customer Segmentation"
 summary: "R-Markdown dashboards and machine learning models deliver actionable sales insights and predict optimal pricing for a bicycle company's new product line."
 date: 2025-11-10
 authors:

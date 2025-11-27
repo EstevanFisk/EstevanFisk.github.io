@@ -1,5 +1,5 @@
 ---
-title: R-Powered Analytical Reporting: Sales, Product Pricing, and Customer Segmentation
+title: "R-Powered Analytical Reporting: Sales, Product Pricing, and Customer Segmentation"
 date: 2025-11-10
 links:
   - type: site
