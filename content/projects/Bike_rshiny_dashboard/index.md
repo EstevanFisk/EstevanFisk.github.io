@@ -5,6 +5,12 @@ links:
   - type: site
     name: GitHub Repo
     url: https://github.com/EstevanFisk/Bike_sales_dashboard_RShiny
+  - type: site
+    name: Demand Forecasting App
+    url: https://estevanfisk.shinyapps.io/sales_dashboard_forecast_app/
+  - type: site
+    name: Product Price Prediction App
+    url: https://estevanfisk.shinyapps.io/price_prediction_app/
 tags:
   - R
   - Shiny
