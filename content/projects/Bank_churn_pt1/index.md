@@ -8,8 +8,6 @@ links:
   - type: brands/github
     name: GitHub Repo
     url: https://github.com/EstevanFisk/Bank-Customer-Churn-EDA-and-Prediction-Part-1
-    icon: brands/github
-    icon_pack: brands
 tags:
   - Python
   - Prediction
