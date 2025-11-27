@@ -5,8 +5,7 @@ links:
   - type: code
     name: GitHub Repo
     url: https://github.com/EstevanFisk/Bike_sales_dashboard_RShiny
-    icon: github
-    icon_pack: brands
+    icon: brands/github
   - type: site
     name: Demand Forecasting App
     url: https://estevanfisk.shinyapps.io/sales_dashboard_forecast_app/
