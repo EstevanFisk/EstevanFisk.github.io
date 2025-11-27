@@ -5,9 +5,10 @@ links:
   - type: code
     name: Kaggle Version
     url: https://www.kaggle.com/code/bgfootball04/bank-customer-churn-eda-and-prediction-part-1
-  - type: brands/github
+  - type: code
     name: GitHub Repo
     url: https://github.com/EstevanFisk/Bank-Customer-Churn-EDA-and-Prediction-Part-1
+    icon: brands/github
 tags:
   - Python
   - Prediction
