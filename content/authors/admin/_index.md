@@ -52,7 +52,7 @@ interests:
 education:
   - area: MS Statistics
     institution: California State University, Fullerton
-    icon: ""
+    icon: custom/csuf_logo
     date_start: 2016-08-01
     date_end: 2020-05-31
     summary: |
@@ -62,7 +62,7 @@ education:
     #   url: 'https://example.com/thesis.pdf'
   - area: BA Business Economics
     institution: University of California, Riverside
-    icon: ""
+    icon: custom/ucr_logo
     date_start: 2008-08-01
     date_end: 2010-05-31
     summary: |
@@ -74,59 +74,80 @@ work:
   - position: Operations Research Analyst, Cost Analyst
     company_name: Air Force Cost Analysis Agency (AFCAA)
     company_url: 'https://www.saffm.hq.af.mil/'
-    icon: ''
+    icon: custom/afcaa_logo
     date_start: 2022-07-01
     date_end: 2025-09-30
     summary: |
-      Conducted non-advocate cost analysis (TS/SCI cleared) on programs exceeding $20B, driving recommendations that resulted in over $1B in long-term savings.
+      Conducted non-advocate cost analysis (TS/SCI cleared) on programs exceeding $20B, driving recommendations that resulted in over $1B in long-term savings.  
+      **Key Projects:**
+      {{< spoiler text="Regression Analysis" >}}Performed regression-based cross-check analysis (Python/Dataiku) on follow-on acquisition costs, leading to a 15% correction of estimated ground costs.{{< /spoiler >}}
+      {{< spoiler text="AFCAA: Learning Curve Research" >}}Conducted research on sub-element learning curves and acquisition lag (Python/Databricks), resulting in a 10% change in expected R&D costs.{{< /spoiler >}}
   - position: Data Science Adjunct Instructor
     company_name: edX
     company_url: 'https://www.edx.org/'
-    icon: ''
+    icon: custom/edx_logo
     date_start: 2022-02-01
     date_end: 2024-03-31
     summary: |
-      Led instruction for Data Science/FinTech bootcamps, covering Machine Learning, Predictive Analytics, and Blockchain.
+      Led instruction for Data Science/FinTech bootcamps, covering Machine Learning, Predictive Analytics, and Blockchain.  
+      **Key Projects:**
+      {{< spoiler text="Research Advisor" >}}Provided expert mentorship on student research projects, focusing on **experimental design** and optimizing complex data pipelines.{{< /spoiler >}}
   - position: Statistical Consultant
     company_name: Chipotle Mexican Grill
     company_url: 'https://www.chipotle.com/'
-    icon: ''
+    icon: custom/chipotle_logo
     date_start: 2020-01-01
     date_end: 2020-05-31
     summary: |
-      Developed an NLP-driven ensemble model in Python to enrich, cluster, and provide insights into restaurant performance.
+      Developed an NLP-driven ensemble model in Python to enrich, cluster, and provide insights into restaurant performance.  
+      **Key Projects:**
+      {{< spoiler text="Natural Language Processing (NLP) on Customer Reviews" >}}Developed an NLP model (Python/Streamlit) to analyze internal and external unstructured text, achieving 90% accuracy in automated comment tagging.{{< /spoiler >}}
   - position: Operations Research Analyst, Earned Value Management Specialist
     company_name: Defense Contract Management Agency (DCMA)
     company_url: 'https://www.dcma.mil/'
-    icon: ''
+    icon: custom/dcma_logo
     date_start: 2019-04-01
     date_end: 2022-07-31
     summary: |
-      Provided crucial oversight for Earned Value Management (EVM) compliance and performed in-depth cost/schedule review for $1.3B+ programs.
+      Provided crucial oversight for Earned Value Management (EVM) compliance and performed in-depth cost/schedule review for $1.3B+ programs.  
+      **Key Projects:**
+      {{< spoiler text="Forecasting Metric Creation" >}}Designed and evaluated new DOD forecasting metrics using Brier scoring (R, R-Shiny, Power BI), impacting $5.8 trillion in agency contracts.{{< /spoiler >}}
+      {{< spoiler text="Survey Natural Language Processing (NLP) Prototype" >}}Constructed NLP models, consisting of aspect-based sentiment analysis from survey data using Python and Streamlit.{{< /spoiler >}}
   - position: Production Manager/Data Scientist
     company_name: Informa Research Services
     company_url: 'https://www.informa.com/'
-    icon: ''
+    icon: custom/informa_logo
     date_start: 2016-10-01
     date_end: 2019-03-31
     summary: |
-      Led a 7-person Production/Data Science team in a SaaS environment, managing ETL, analytics, and contributing to 50% enhancement in product offerings.
+      Led a 7-person Production/Data Science team in a SaaS environment, managing ETL, analytics, and contributing to 50% enhancement in product offerings.  
+      **Key Projects:**
+      {{< spoiler text="Demand Elasticity Moodel" >}}Created demand elasticity and propensity-to-buy models (R/R-Shiny), achieving 85% accuracy for sales and marketing strategy insights.{{< /spoiler >}}
+      {{< spoiler text="SQL Automation" >}}Automated SQL views and stored procedures to ensure continuous data freshness and maintain strict Service Level Agreements (SLAs).{{< /spoiler >}}
+      {{< spoiler text="Survey Design" >}}Led the design of finance industry surveys, resulting in new services with high 50%-75% profit margins.{{< /spoiler >}}
+      {{< spoiler text="Product Development/Feature Engineering" >}}Integrated third-party data using feature engineering, resulting in improved market share approximations and a 10% increase in product valuation.{{< /spoiler >}}
   - position: Consultant/Portfolio Analyst
     company_name: US Bank
     company_url: 'https://www.usbank.com/index.html'
-    icon: ''
+    icon: custom/usbank_logo
     date_start: 2016-03-01
     date_end: 2016-10-31
     summary: |
-      Supported Wholesale Banking Lenders by compiling financial statement spreads, quarterly trend analysis, projections, and covenant testing.
+      Supported Wholesale Banking Lenders by compiling financial statement spreads, quarterly trend analysis, projections, and covenant testing.  
+      **Key Projects:**
+      {{< spoiler text="Updated Training Evaluation" >}}Developed new department training metrics using VBA/Excel and ANOVA testing, resulting in a 20% reduction in training time for staff.{{< /spoiler >}}
   - position: Credit Analyst
     company_name: Wells Fargo NA
     company_url: 'https://www.wellsfargo.com/'
-    icon: ''
+    icon: custom/wells_logo
     date_start: 2014-01-01
     date_end: 2016-02-28
     summary: |
-      Performed credit investigations and first-level analytics for accounts with $1M+ exposure, ensuring financial compliance and performance review.
+      Performed credit investigations and first-level analytics for accounts with $1M+ exposure, ensuring financial compliance and performance review.  
+      **Key Projects:**
+      {{< spoiler text="Wells Fargo: Workflow Time Series" >}}Conducted a time series analysis in Python to forecast future workflow growth, leading to savings of over 250 overtime hours per month.{{< /spoiler >}}
+      {{< spoiler text="Wells Fargo: Task Automation" >}}Engineered a Visual Basic and Excel application to automate daily tasks, resulting in a 50% reduction in required effort.{{< /spoiler >}}
+      {{< spoiler text="Wells Fargo: A/B Testing" >}}Implemented a new FAQ system and used A/B testing to validate project impact, decreasing overall phone call time by 15%.{{< /spoiler >}}
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -270,11 +291,11 @@ skills:
       - name: Board Games
         description: ''
         percent: 90
-        icon: 🎲🎲
+        icon: custom/dice
       - name: Tennis
         description: ''
         percent: 70
-        icon: 🎾
+        icon: custom/tennis
 
 languages:
   - name: English
@@ -287,13 +308,13 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Introduction to Big Data with Spark and Hadoop
-    url: https://www.coursera.org/account/accomplishments/verify/ID6SY32KUSWK
+  - title: NoSQL, Big Data, and Spark Foundations
+    url: https://coursera.org/share/9dc1ecfe24fcb1fb86e3568ed571e3b8
     date: '2025-09-01'
     awarder: IBM through Coursera 
-    icon: hero/trophy
+    icon: custom/coursera_bigdata_cert
     summary: |
-      Explains Big Data impact, tools (Hadoop, Spark), and methods (MapReduce/RDDs); details Hadoop architecture (HDFS, Hive, HBase) and applies advanced Spark programming, including SQL optimization.
+      Completed an intensive program focused on building and managing scalable data architectures. Mastered the ability to handle Big Data through distributed computing frameworks like Apache Spark and Hadoop. Developed a deep understanding of NoSQL database design (sharding/indexing) and implemented robust ETL pipelines to streamline data for production-grade Machine Learning models, ensuring high availability and performance using Kubernetes.
   - title: Shiny Web Applications & Data Science for Business with R
     url: https://www.business-science.io/
     date: '2022-09-01'
