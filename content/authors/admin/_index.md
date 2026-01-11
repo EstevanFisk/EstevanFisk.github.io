@@ -120,7 +120,7 @@ work:
     date_start: 2016-10-01
     date_end: 2019-03-31
     summary: |
-      Led a 7-person Production/Data Science team in a SaaS environment, managing ETL, analytics, and contributing to 50% enhancement in product offerings.  
+      Led a 7-person Production/Data Science team in a SaaS environment, managing ETL, analytics, and contributing to 50% enhancement in product offerings. Co-orchestrated the operational integration of company acquisitions, managing the merger of technical infrastructures and operational teams to drive organizational efficiency.  
       **Key Projects:**
       {{< spoiler text="Demand Elasticity Moodel" >}}Created demand elasticity and propensity-to-buy models (R/R-Shiny), achieving 85% accuracy for sales and marketing strategy insights.{{< /spoiler >}}
       {{< spoiler text="SQL Automation" >}}Automated SQL views and stored procedures to ensure continuous data freshness and maintain strict Service Level Agreements (SLAs).{{< /spoiler >}}
@@ -180,6 +180,10 @@ skills:
         description: ''
         percent: 100
         icon: devicon/plotly
+      - name: Gradio
+        description: ''
+        percent: 100
+        icon: custom/gradio_logo
   - name: Databases
     items:
       - name: MS SQL
@@ -190,10 +194,10 @@ skills:
         description: ''
         percent: 75
         icon: devicon/postgresql
-      - name: SQLite
+      - name: Chroma DB
         description: ''
         percent: 50
-        icon: devicon/sqlite
+        icon: custom/chroma_logo
       - name: MongoDB
         description: ''
         percent: 50
@@ -220,6 +224,14 @@ skills:
         description: ''
         percent: 50
         icon: custom/h2o
+      - name: LangGraph
+        description: ''
+        percent: 50
+        icon: custom/langchain
+      - name: Hugging Face
+        description: ''
+        percent: 50
+        icon: custom/huggingface_logo
   - name: Data Science
     items:
       - name: Jupyter
@@ -308,10 +320,22 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: NoSQL, Big Data, and Spark Foundations
+  - title: IBM RAG and Agentic AI Professional Certificate
+    url: https://coursera.org/share/3a86ab3b10e967a1c51c8ff96b6dca47
+    date: '2026-01-09'
+    awarder: IBM & Coursera 
+    icon: custom/coursera_rag_ai_cert
+    summary: |
+      Professional Certificate in Advanced Generative AI Architecture & Agentic Systems:
+      - Agentic Frameworks: Built autonomous and collaborative agents using LangGraph, CrewAI, AG2 (AutoGen), and BeeAI.
+      - Orchestration & Workflows: Designed modular AI workflows with LangChain, utilizing memory, feedback loops, and multi-step reasoning.
+      - RAG & Data: Implemented Retrieval-Augmented Generation (RAG) using vector databases, embeddings, and the Model Context Protocol (MCP).
+      - Advanced Prompting: Expertise in multimodal prompts, function calling, and tool integration to create context-aware applications.
+      - Architecture: Designed multi-agent systems capable of distributed decision-making and dynamic context switching.
+  - title: NoSQL, Big Data, and Spark Foundations Professional Certificate
     url: https://coursera.org/share/9dc1ecfe24fcb1fb86e3568ed571e3b8
     date: '2025-09-01'
-    awarder: IBM through Coursera 
+    awarder: IBM & Coursera 
     icon: custom/coursera_bigdata_cert
     summary: |
       Completed an intensive program focused on building and managing scalable data architectures. Mastered the ability to handle Big Data through distributed computing frameworks like Apache Spark and Hadoop. Developed a deep understanding of NoSQL database design (sharding/indexing) and implemented robust ETL pipelines to streamline data for production-grade Machine Learning models, ensuring high availability and performance using Kubernetes.
@@ -331,6 +355,18 @@ awards:
       Completed SQL Essential Training, gaining a solid working knowledge of SQL terminology, syntax, and efficient data retrieval/management, covering topics from creating tables to advanced joins and views.
 ---
 
-Estevan Fisk is a highly accomplished Data Scientist with a Master's in Statistics and over a decade of experience transforming complex data into significant business value. An expert in predictive modeling, NLP, and advanced analytics, he has a proven track record of driving process optimization (up to 50% reduction in effort) and delivering actionable insights that resulted in major cost savings and profitability increases (e.g., 85% accurate propensity model). He excels at full-lifecycle model deployment, large-scale data engineering (Python/PySpark/SQL), and communicating complex findings to non-technical stakeholders.
+I am a **Data Scientist** and **Operations Research Analyst** with over a decade of experience bridging the gap between rigorous statistical theory and frontier-tier AI implementation. My career has been defined by high-stakes environments—from conducting **$20B+ cost assessments** for the Air Force to building NLP-driven clustering models for brands like **Chipotle**.  
+
+I specialize in creating autonomous, self-improving systems that drive measurable business value:
+
+- **Agentic AI & RAG**: Architecting multi-agent systems with **LangGraph, CrewAI, and LangChain** to solve complex, unstructured enterprise problems.
+
+- **Predictive Modeling**: Developing high-accuracy models (85%+) for churn, demand forecasting, and cost analysis using Python and R.
+
+- **Strategic Leadership**: Leading $20B+ program assessments (TS/SCI Cleared) and mentoring data teams in SaaS and Government sectors.
+
+- **Full-Stack Deployment**: Building production-grade data tools and interactive dashboards using **Streamlit, R-Shiny, and Databricks**.
+
+*I thrive at the intersection of predictive analytics and agentic workflows, turning raw data into strategic, autonomous advantages*.
 
 

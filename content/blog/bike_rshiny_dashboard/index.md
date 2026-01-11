@@ -17,6 +17,6 @@ tags:
 image:
   caption: ''
 sitemap: true
-url: projects/Bike_rshiny_dashboard/
-draft: true
+url: /projects/bike_rshiny_dashboard/
+draft: false
 ---

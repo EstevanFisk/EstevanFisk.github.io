@@ -13,6 +13,6 @@ tags:
 image:
   caption: ''
 sitemap: true
-url: projects/bike-bus-analysis-rmd/
-draft: true
+url: /projects/bike-bus-analysis-rmd/
+draft: false
 ---
