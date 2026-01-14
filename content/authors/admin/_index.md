@@ -33,9 +33,9 @@ organizations:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
-    url: 'mailto:estevan.fisk@gmail.com'
-    label: E-mail Me
+  # - icon: at-symbol
+  #   url: 'mailto:(input_email)'
+  #   label: E-mail Me
   - icon: brands/github
     url: https://github.com/EstevanFisk
   - icon: brands/linkedin
@@ -343,14 +343,14 @@ awards:
     url: https://www.business-science.io/
     date: '2022-09-01'
     awarder: Business Science University
-    icon: hero/currency-dollar
+    icon: custom/bus_sci_logo #hero/currency-dollar
     summary: |
       Gained practical experience building and deploying predictive web applications using R/Shiny and Flexdashboard, integrating XGBoost machine learning models for consistent product pricing and sales forecasting.
   - title: SQL Essential Training
     url: https://www.linkedin.com/learning/
     date: '2015-12-30'
     awarder: LinkedIn Learning
-    icon: hero/academic-cap
+    icon: brands/linkedin #hero/academic-cap
     summary: |
       Completed SQL Essential Training, gaining a solid working knowledge of SQL terminology, syntax, and efficient data retrieval/management, covering topics from creating tables to advanced joins and views.
 ---
