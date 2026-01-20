@@ -28,5 +28,5 @@ draft: false
 
 
 {{< cards >}}
-  {{< card url="../pricing_app" title="Product Price Prediction Tool" icon="adjustments-vertical" subtitle="Empower your salesforce!">}}
+  {{< card url="/../projects/bike_rshiny_dashboard/pricing_app/" title="Product Price Prediction Tool" icon="adjustments-vertical" subtitle="Empower your salesforce!">}}
 {{< /cards >}}

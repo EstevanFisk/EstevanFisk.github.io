@@ -32,6 +32,6 @@ draft: false
 
 
 {{< cards >}}
-  {{< card url="about" title="About DocChat" icon="document-text" subtitle= "Let's breakdown what's in the application">}}
-  {{< card url="app" title="DocChat App" icon="adjustments-vertical" subtitle="Experience DocChat live!">}}
+  {{< card url="/projects/document_summary_llm/about/" title="About DocChat" icon="document-text" subtitle= "Let's breakdown what's in the application">}}
+  {{< card url="/projects/document_summary_llm/app/" title="DocChat App" icon="adjustments-vertical" subtitle="Experience DocChat live!">}}
 {{< /cards >}}

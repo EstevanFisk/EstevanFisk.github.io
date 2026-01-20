@@ -27,5 +27,5 @@ draft: false
 
 
 {{< cards >}}
-  {{< card url="../demand_app" title="Demand Forecasting and Customer Analytics Dashboard" icon="adjustments-vertical" subtitle="Quickly assess market performance and identify sales opportunities!">}}
+  {{< card url="/../projects/bike_rshiny_dashboard/demand_app/" title="Demand Forecasting and Customer Analytics Dashboard" icon="adjustments-vertical" subtitle="Quickly assess market performance and identify sales opportunities!">}}
 {{< /cards >}}

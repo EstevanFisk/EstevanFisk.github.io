@@ -56,5 +56,5 @@ Instead of a linear prompt, the app utilizes a **LangGraph-driven state machine*
 
 
 {{< cards >}}
-  {{< card url="../app" title="DocChat App" icon="adjustments-vertical" subtitle="Experience DocChat live!">}}
+  {{< card url="/../projects/document_summary_llm/app/" title="DocChat App" icon="adjustments-vertical" subtitle="Experience DocChat live!">}}
 {{< /cards >}}

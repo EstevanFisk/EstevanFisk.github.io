@@ -35,7 +35,7 @@ draft: false
 > Born from my experience as a Product Manager identifying friction in the sales cycle, this suite operationalizes advanced analytics for the bicycle retail industry. By combining machine learning-driven price prediction with interactive demand forecasting, the solution transforms complex data into a self-service toolkit. It is designed to empower field personnel with immediate pricing autonomy, eliminating the traditional "pricing-desk" bottleneck and accelerating time-to-close through data-driven decision support.
 
 {{< cards >}}
-  {{< card url="about" title="About Integrated Retail Intelligence" icon="document-text" subtitle= "Let's breakdown the suite of tools">}}
-  {{< card url="demand_app" title="Demand Forecasting and Customer Analytics Dashboard" icon="adjustments-vertical" subtitle="Quickly assess market performance and identify sales opportunities!">}}
-  {{< card url="pricing_app" title="Product Price Prediction Tool" icon="adjustments-vertical" subtitle="Empower your salesforce!">}}
+  {{< card url="/projects/bike_rshiny_dashboard/about/" title="About Integrated Retail Intelligence" icon="document-text" subtitle= "Let's breakdown the suite of tools">}}
+  {{< card url="/projects/bike_rshiny_dashboard/demand_app/" title="Demand Forecasting and Customer Analytics Dashboard" icon="adjustments-vertical" subtitle="Quickly assess market performance and identify sales opportunities!">}}
+  {{< card url="/projects/bike_rshiny_dashboard/pricing_app/" title="Product Price Prediction Tool" icon="adjustments-vertical" subtitle="Empower your salesforce!">}}
 {{< /cards >}}
