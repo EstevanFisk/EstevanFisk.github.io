@@ -1,6 +1,8 @@
 ---
-title: "R-Powered Analytical Reporting: Sales, Product Pricing, and Customer Segmentation"
+title: "R-Powered Strategic Retail Intelligence: From Performance Audit to Market R&D"
 date: 2025-11-10
+authors:
+    - admin
 links:
   - type: code
     name: GitHub Repo
@@ -12,34 +14,71 @@ tags:
   - Dashboard
   - Prediction
   - Feature Engineering
+  - Customer Segmentation
+  - sales
+  - pricing
 sitemap: true
 share: false
-weight: 30
+#weight: 30
+draft: false
 ---
 
-This project demonstrates my capability in R by rebuilding a sales analysis dashboard originally developed at [Business Science University](https://www.business-science.io/). The solution uses R-Markdown to present actionable insights into a bicycle company's revenue. For full transparency and technical review, the reports include interactive buttons to review inline code for visibility, allowing readers to inspect the methodology alongside the analysis. The complete project implementation, including all scripts and preliminary model attempts is accessible via my GitHub Repository. This experience was a great refresher on building effective, interactive data visualizations. 
 
-<!--more-->
-## Sales Dashboard Example
+Navigating complex data landscapes—across both the **private sector and classified environments within the DoD**—has reinforced the reality that analytical results are only as valuable as the transparency behind them. In high-stakes settings, the "black box" is a liability; every number must be defensible, and every methodology must be auditable.
 
-The core of the dashboard allows users to break down sales by total, category, and time series (quarterly, monthly, or weekly), with additional filtering to analyze specific bicycle types. 
+This suite was born from my experience as a **Product Manager** identifying operational bottlenecks in the sales cycle. By applying a **Master’s-level statistical foundation** to the real-world friction I encountered in the field, I have engineered this project as a gold standard for **Literate Programming**. It transitions from a high-level operational audit to deep-dive market optimization, ensuring that strategic recommendations are always backed by a visible, reproducible technical trail.  
 
-<iframe src="/uploads/notebooks/bike_bus_analysis_rmd/sales_report.html" width="100%" height="1000px" style="border:none;"></iframe>
+---
+
+### I. Executive Sales Performance Dashboard
+### The Operational Source of Truth
+
+This primary module serves as the central hub for the analytical framework, providing a real-time audit of revenue health across geographic markets and product categories.
+
+- **Strategic Focus**: Enables stakeholders to rapidly evaluate revenue concentration and monitor "health and wealth" metrics to optimize resource allocation.
+
+- **Technical Highlight**: Features a reactive backend that facilitates seamless drilling from quarterly trends down to weekly localized performance.
+
+- **The Hub**: Contains direct navigational links to the specialized R&D and Behavioral Intelligence reports below.
 
 
-## Product Analysis Report Example
+<a href="/uploads/notebooks/bike_bus_analysis_rmd/sales_report.html" class="btn btn-primary btn-lg" target="_blank" rel="noopener">View Interactive Sales Dashboard</a>
 
-This portfolio piece addresses a strategic Research and Development (R&D) challenge: benchmarking the existing product line to identify opportunities for new products and optimal pricing. The analysis involved segmentation of the current bicycle inventory, leading to a market gap analysis that revealed viable unserved bicycle combinations. We then utilized machine learning to predict potential price points for the newly identified bicycles based on the features and pricing of existing inventory. Models tested were: linear (with and without regularization), decision tree, random forest, and XGBoost. XGBoost model was ultimately selected as the final predictive solution for its superior performance.
+---
 
-The resulting interactive report enables stakeholders to easily explore the predictive model outputs and review individual data point characteristics for validation.
+### II. Strategic R&D: Algorithmic Gap Analysis
+### Portfolio Optimization & Market Benchmarking
 
-<iframe src="/uploads/notebooks/bike_bus_analysis_rmd/new_product_recommendation.html" width="100%" height="1000px" style="border:none;"></iframe>
+Addressing the "Market Entry" problem, this module identifies "blind spots" in the current 97-model fleet to establish high-fidelity pricing benchmarks for new configurations.
+
+- **Strategic Focus**: Discovered two distinct "Blue Ocean" opportunities: an Aluminum-frame Over Mountain line and an Aluminum-frame Triathlon line.
+
+- **Technical Highlight**: Leverages an **XGBoost pricing engine** to establish market benchmarks, ensuring internal price parity before a prototype is built.
+
+- **Validation**: Compares XGBoost against Linear and Random Forest architectures to ensure the most robust predictive accuracy.  
 
 
-## Customer Segmentation Report
+<a href="/uploads/notebooks/bike_bus_analysis_rmd/new_product_recommendation.html" class="btn btn-primary btn-lg" target="_blank" rel="noopener">View Gap Analysis Report</a>
 
-Customer segmentation was conducted using the k-means algorithm on customer sales data. The resulting clusters were then transformed via UMAP techniques into a 2D projection for visualization. Finally, the top 5 bike models were plotted based on customer segment, bike type, and unit price to provide a visual representation of the cluster findings.
+---
 
-<iframe src="/uploads/notebooks/bike_bus_analysis_rmd/customer_segmentation.html" width="100%" height="1000px" style="border:none;"></iframe>
+### III. Behavioral Intelligence: High-Dimensional Market Mapping
+### Latent Market Discovery via Clustering
 
+To drive targeted marketing and inventory strategies, this final module uncovers the latent behavioral patterns within a customer base of 30 retail bike shops.
+
+- **Strategic Impact**: Identified four distinct customer profiles, allowing marketing teams to transition from generic outreach to highly targeted, segment-specific campaigns.
+
+- **Technical Methodology**: Employs K-Means clustering and UMAP (Uniform Manifold Approximation and Projection) to project high-dimensional similarity into an intuitive 2D space.
+
+- **The "Practitioner" Difference**: Unlike traditional PCA, the use of UMAP preserves the local structure of the data, providing a more accurate visual representation of distinct customer "landscapes."
+
+
+<a href="/uploads/notebooks/bike_bus_analysis_rmd/customer_segmentation.html" class="btn btn-primary btn-lg" target="_blank" rel="noopener">View Customer Segmentation Audit</a>
+
+
+---
+
+#### Methodological Note: Built for Auditability
+Every report in this suite features **interactive code-folding**. By prioritizing transparency, these documents allow technical peers to inspect the data transformations and model parameters directly inline. This ensures that the methodology is not a "black box," but a fully auditable asset—a requirement I maintain from my background in **regulated and classified environments**.
 
