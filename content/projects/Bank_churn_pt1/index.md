@@ -1,8 +1,11 @@
 ---
-title: Bank Customer Churn EDA and Prediction Part 1
+title: "Banking Retention Intelligence: A Statistical Audit of Customer Attrition"
+summary: "99% accurate churn model using SMOTENC & feature interaction engineering."
 date: 2025-11-30
 authors:
     - admin
+content_meta:
+  content_type: 'Notebook'
 links:
   - type: code
     name: Kaggle Version
@@ -16,6 +19,9 @@ tags:
   - Prediction
   - Feature Engineering
   - Hypothesis Testing
+  - Class Imbalance Handling
+  - XGBoost
+  - Scikit-Learn
 sitemap: true
 share: false
 #weight: 10
@@ -27,7 +33,7 @@ Project focuses on predicting bank customer churn (whether a customer will leave
 <!--more-->
 
 <p style="text-align: center; font-size: 0.9em; margin-top: 10px;">
-  <a href="/uploads/notebooks/bank_churn_pt1/no_code_bank-customer-churn-eda-and-prediction-part-1.html" target="_blank">
+  <a href="/uploads/notebooks/bank_churn_pt1/no_code_bank-customer-churn-eda-and-prediction-part-1.html" target="_blank" rel="noopener noreferrer">
     Open App in New Tab ↗
   </a>
 </p>

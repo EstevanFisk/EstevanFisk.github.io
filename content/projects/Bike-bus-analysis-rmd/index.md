@@ -1,13 +1,25 @@
 ---
 title: "R-Powered Strategic Retail Intelligence: From Performance Audit to Market R&D"
+summary: "DoD-grade auditability in retail ML: XGBoost pricing & UMAP high-dimensional discovery."
 date: 2025-11-10
 authors:
     - admin
+content_meta:
+  content_type: 'Notebook'
 links:
   - type: code
     name: GitHub Repo
     url: https://github.com/EstevanFisk/bike_business_analysis_rmarkdown
     icon: brands/github
+  - type: code
+    name: Interactive Sales Dashboard
+    url: "/uploads/notebooks/bike_bus_analysis_rmd/sales_report.html"
+  - type: code
+    name: Gap Analysis Report
+    url: "/uploads/notebooks/bike_bus_analysis_rmd/new_product_recommendation.html"
+  - type: code
+    name: Customer Segmentation Report
+    url: /uploads/notebooks/bike_bus_analysis_rmd/customer_segmentation.html"
 tags:
   - R
   - R-Markdown
@@ -42,7 +54,7 @@ This primary module serves as the central hub for the analytical framework, prov
 - **The Hub**: Contains direct navigational links to the specialized R&D and Behavioral Intelligence reports below.
 
 
-<a href="/uploads/notebooks/bike_bus_analysis_rmd/sales_report.html" class="btn btn-primary btn-lg" target="_blank" rel="noopener">View Interactive Sales Dashboard</a>
+<a href="/uploads/notebooks/bike_bus_analysis_rmd/sales_report.html" class="btn btn-primary btn-lg" target="_blank" rel="noopener noreferrer">View Interactive Sales Dashboard</a>
 
 ---
 
@@ -58,7 +70,7 @@ Addressing the "Market Entry" problem, this module identifies "blind spots" in t
 - **Validation**: Compares XGBoost against Linear and Random Forest architectures to ensure the most robust predictive accuracy.  
 
 
-<a href="/uploads/notebooks/bike_bus_analysis_rmd/new_product_recommendation.html" class="btn btn-primary btn-lg" target="_blank" rel="noopener">View Gap Analysis Report</a>
+<a href="/uploads/notebooks/bike_bus_analysis_rmd/new_product_recommendation.html" class="btn btn-primary btn-lg" target="_blank" rel="noopener noreferrer">View Gap Analysis Report</a>
 
 ---
 
@@ -74,11 +86,10 @@ To drive targeted marketing and inventory strategies, this final module uncovers
 - **The "Practitioner" Difference**: Unlike traditional PCA, the use of UMAP preserves the local structure of the data, providing a more accurate visual representation of distinct customer "landscapes."
 
 
-<a href="/uploads/notebooks/bike_bus_analysis_rmd/customer_segmentation.html" class="btn btn-primary btn-lg" target="_blank" rel="noopener">View Customer Segmentation Audit</a>
+<a href="/uploads/notebooks/bike_bus_analysis_rmd/customer_segmentation.html" class="btn btn-primary btn-lg" target="_blank" rel="noopener noreferrer">View Customer Segmentation Audit</a>
 
 
 ---
 
 #### Methodological Note: Built for Auditability
 Every report in this suite features **interactive code-folding**. By prioritizing transparency, these documents allow technical peers to inspect the data transformations and model parameters directly inline. This ensures that the methodology is not a "black box," but a fully auditable asset—a requirement I maintain from my background in **regulated and classified environments**.
-

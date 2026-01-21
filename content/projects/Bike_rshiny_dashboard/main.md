@@ -1,13 +1,45 @@
 ---
-title: "About: Predictive Operations Control Center on Shiny Dashboards"
+title: "Integrated Retail Intelligence: Predictive Operations Control Center on Shiny Dashboards"
+summary: "ML-driven pricing & forecasting to end sales bottlenecks and accelerate time-to-close."
 date: 2025-12-15
 authors:
     - admin
-build:
-  list: never
-  render: always
+type: project
+content_meta:
+  content_type: 'App'
+links:
+  - type: code
+    name: GitHub Repo
+    url: https://github.com/EstevanFisk/Bike_sales_dashboard_RShiny
+    icon: brands/github
+  - type: code
+    name: Demand Forecasting App Live Demo
+    url: "/projects/bike_rshiny_dashboard/demand_app/"
+  - type: code
+    name: Product Price Prediction App Live Demo
+    url: "/projects/bike_rshiny_dashboard/pricing_app/"
+tags:
+  - R
+  - Shiny
+  - Feature Engineering
+  - Dashboard
+  - Timeseries
+  - Forecasting
+  - Machine Learning
+  - SQLite
+  - Business Intelligence
+  - Regression Analysis
+  - Sales Enablement
+  - Retail Ops
 sitemap: true
-#weight: 1
+share: false
+featured: true
+build:
+  list: always
+  render: always
+image:
+  filename: bikes_rshiny_featured.png
+#weight: 10
 draft: false
 ---
 
@@ -42,6 +74,9 @@ The application leverages a modern R-based tech stack to deliver speed, versatil
 - Customer Segmentation: Mountain-to-Road bike ratio labels used to signal warning zones/upsell potential for specific customer segments.
 
 
+<a href="/projects/bike_rshiny_dashboard/demand_app/" class="btn btn-primary btn-lg" target="_blank" rel="noopener noreferrer">View Interactive Forecasting Dashboard</a>
+
+
 
 ## Machine Learning-Driven Product Price Prediction Tool
 This project showcases a practical application of machine learning developed to empower sales teams with immediate, accurate pricing capabilities. By providing a self-service tool, it minimizes friction in the sales cycle and streamlines product management workflows.
@@ -65,8 +100,5 @@ The application leverages a predictive machine learning model to provide real-ti
 - Interactive Visualization: Uses Plotly for rich, interactive graphing that contextualizes the predicted price within the current market landscape.
 - Self-Service Enablement: A user-friendly interface designed specifically for non-technical field personnel.
 
+<a href="/projects/bike_rshiny_dashboard/pricing_app/" class="btn btn-primary btn-lg" target="_blank" rel="noopener noreferrer">View Interactive Price Prediction Dashboard</a>
 
-{{< cards >}}
-  {{< card url="/../projects/bike_rshiny_dashboard/demand_app/" title="Demand Forecasting and Customer Analytics Dashboard" icon="adjustments-vertical" subtitle="Quickly assess market performance and identify sales opportunities!">}}
-  {{< card url="/../projects/bike_rshiny_dashboard/pricing_app/" title="Product Price Prediction Tool" icon="adjustments-vertical" subtitle="Empower your salesforce!">}}
-{{< /cards >}}
