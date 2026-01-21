@@ -1,16 +1,49 @@
 ---
-title: "About DocChat: Intelligent Document Retrieval & Verification for Technical Data"
+title: "DocChat: Intelligent Document Retrieval & Verification for Technical Data"
+summary: "Self-correcting multi-agent RAG for audits. Built with LangGraph, Docling & Modal."
 date: 2026-01-18
+authors:
+    - admin
+type: project
+content_meta:
+  content_type: 'App'
+links:
+  - type: code
+    name: GitHub Repo
+    url: https://github.com/EstevanFisk/document_summary_llm.git
+    icon: brands/github
+  - type: code
+    name: "Launch Live Demo"
+    url: "/projects/document_summary_llm/demo"
+tags:
+  - Python
+  - LLM
+  - Agentic AI
+  - AI
+  - Multi-modal
+  - Generative AI
+  - Gradio
+  - Modal
+  - Gemini
+  - OpenAI
+  - Docling
+sitemap: true
+share: false
+featured: true
 build:
-  list: never
+  list: always
   render: always
-#weight: 1
+image:
+  filename: docchat_featured.png
+  #weight: 1
 draft: false
 ---
+
 
 > **A high-precision RAG system designed to bridge the "Hallucination Gap" in technical document audit.**
 
 ---
+
 
 ## 🎖️ The Inspiration: From Defense Analysis to Data Science
 During my time as a **Cost Analyst for the U.S. Air Force**, I navigated the "Document Maze"—thousands of hours spent auditing dense technical proposals, program descriptions, and complex contract policy manuals. In high-stakes defense environments, missing a single footnote in a 500-page document isn't just an inconvenience; it can lead to multi-million dollar discrepancies.
@@ -56,5 +89,5 @@ Instead of a linear prompt, the app utilizes a **LangGraph-driven state machine*
 
 
 {{< cards >}}
-  {{< card url="/../projects/document_summary_llm/app/" title="DocChat App" icon="adjustments-vertical" subtitle="Experience DocChat live!">}}
+  {{< card url="/projects/document_summary_llm/demo" title="DocChat App" icon="adjustments-vertical" subtitle="Experience DocChat live!">}}
 {{< /cards >}}
