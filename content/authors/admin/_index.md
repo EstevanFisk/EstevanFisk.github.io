@@ -145,9 +145,9 @@ work:
     summary: |
       Performed credit investigations and first-level analytics for accounts with $1M+ exposure, ensuring financial compliance and performance review.  
       **Key Projects:**
-      {{< spoiler text="Wells Fargo: Workflow Time Series" >}}Conducted a time series analysis in Python to forecast future workflow growth, leading to savings of over 250 overtime hours per month.{{< /spoiler >}}
-      {{< spoiler text="Wells Fargo: Task Automation" >}}Engineered a Visual Basic and Excel application to automate daily tasks, resulting in a 50% reduction in required effort.{{< /spoiler >}}
-      {{< spoiler text="Wells Fargo: A/B Testing" >}}Implemented a new FAQ system and used A/B testing to validate project impact, decreasing overall phone call time by 15%.{{< /spoiler >}}
+      {{< spoiler text="Workflow Time Series Analysis" >}}Conducted a time series analysis in Python to forecast future workflow growth, leading to savings of over 250 overtime hours per month.{{< /spoiler >}}
+      {{< spoiler text="Excel/VB Task Automation" >}}Engineered a Visual Basic and Excel application to automate daily tasks, resulting in a 50% reduction in required effort.{{< /spoiler >}}
+      {{< spoiler text="A/B Testing" >}}Implemented a new FAQ system and used A/B testing to validate project impact, decreasing overall phone call time by 15%.{{< /spoiler >}}
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -249,7 +249,7 @@ skills:
       - name: Pandas
         description: ''
         percent: 100
-        icon: devicon/pandas
+        icon: custom/pandas_logo
       - name: Plotly
         description: ''
         percent: 50
