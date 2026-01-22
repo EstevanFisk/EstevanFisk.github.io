@@ -39,8 +39,29 @@ image:
 draft: false
 ---
 
-
 > **A high-precision RAG system designed to bridge the "Hallucination Gap" in technical document audit.**
+
+---
+
+<div style="display: flex; justify-content: center; flex-wrap: nowrap; gap: 4px; margin-bottom: 0px; margin-top: -50px; transform: scale(1.00); transform-origin: center;">
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.10+-blue?style=flat&logo=python&logoColor=white" alt="Python 3.10+"></a>
+  <a href="https://ai.google.dev/"><img src="https://img.shields.io/badge/LLM-Gemini_1.5-blueviolet?style=flat&logo=googlegemini&logoColor=white" alt="Gemini 1.5 LLM"></a>
+  <a href="https://openai.com/"><img src="https://img.shields.io/badge/LLM-OpenAI-412991?style=flat&logo=openai&logoColor=white" alt="OpenAI Backup LLM"></a>
+  <a href="https://langchain-ai.github.io/langgraph/"><img src="https://img.shields.io/badge/Agents-LangGraph-orange?style=flat" alt="LangGraph Agents"></a>
+  <a href="https://modal.com"><img src="https://img.shields.io/badge/Compute-Modal-green?style=flat&logo=modal" alt="Modal Compute"></a>
+</div>
+
+<div style="display: flex; justify-content: center; flex-wrap: nowrap; gap: 4px; margin-bottom: 0px; margin-top: -50px; transform: scale(1.00); transform-origin: center;">
+  <a href="https://www.trychroma.com/"><img src="https://img.shields.io/badge/Vector-Chroma-yellow?style=flat&logo=googlecloud&logoColor=white" alt="Chroma Vector DB"></a>
+  <a href="https://github.com/DS4SD/docling"><img src="https://img.shields.io/badge/Parsing-Docling-blue?style=flat" alt="Docling Parsing"></a>
+  <a href="https://ai.google.dev/models/embeddings"><img src="https://img.shields.io/badge/Embeds-Text--004-9C27B0?style=flat&logo=google" alt="Gemini Embeddings"></a>
+</div>
+
+<div style="display: flex; justify-content: center; flex-wrap: nowrap; gap: 4px; margin-bottom: -30px; margin-top: -50px; transform: scale(1.00); transform-origin: center;">
+  <a href="https://en.wikipedia.org/wiki/Data_science"><img src="https://img.shields.io/badge/Data_Scientist-0077B5?style=flat&logo=googlesheets&logoColor=white" alt="Data Scientist"></a>
+  <a href="https://en.wikipedia.org/wiki/Statistics"><img src="https://img.shields.io/badge/M.S._Stats-C41E3A?style=flat&logo=icloud&logoColor=white" alt="M.S. Statistics"></a>
+  <a href="https://en.wikipedia.org/wiki/Stoicism"><img src="https://img.shields.io/badge/Stoic-aa9a73?style=flat&logo=probot&logoColor=white" alt="Stoicism"></a>
+</div>
 
 ---
 
@@ -70,6 +91,25 @@ Instead of a linear prompt, the app utilizes a **LangGraph-driven state machine*
 1. **The Research Agent:** Conducts a **Hybrid Search** (BM25 + Vector) to find relevant data.
 2. **The Verification Agent:** Cross-checks every generated claim against the original source text to eliminate hallucinations.
 3. **The Self-Correction Loop:** Automatically triggers a re-run of the research phase if unsupported statements are detected.
+
+```mermaid
+graph TD
+    Start([<b>START</b>]) --> Relevance[<b>Relevance Checker</b>]
+    
+    Relevance -- "Relevant" --> Research[<b>Research Agent</b>]
+    Relevance -- "Irrelevant" --> End([<b>END</b>])
+    
+    Research --> Verify[<b>Verification Agent</b>]
+    
+    Verify -- "Needs Correction" --> Research
+    Verify -- "Verified" --> End
+
+    style Start fill:#f9f,stroke:#333,stroke-width:2px
+    style End fill:#bbf,stroke:#333,stroke-width:2px
+    style Relevance fill:#e1f5fe,stroke:#01579b
+    style Research fill:#e8f5e9,stroke:#2e7d32
+    style Verify fill:#fff3e0,stroke:#ef6c00
+```
 
 
 

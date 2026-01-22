@@ -28,7 +28,29 @@ share: false
 draft: false
 ---
 
-Project focuses on predicting bank customer churn (whether a customer will leave or stay) using various personal and behavioral attributes. Customer retention is vital for banks, as keeping current customers is significantly more cost-effective than gaining new ones. By identifying the key factors driving churn, banks can develop targeted loyalty and retention strategies to minimize customer turnover. We will build a predictive model using a dataset from Kaggle containing customer information and behavioral data.
+<div style="display: flex; justify-content: center; flex-wrap: nowrap; gap: 4px; margin-top: 10px; margin-bottom: 10px; transform: scale(1.25); transform-origin: center;">
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/Python-3.10+-blue?style=flat&logo=python&logoColor=white" alt="Python">
+  </a>
+  <a href="https://jupyter.org/">
+    <img src="https://img.shields.io/badge/Notebook-Jupyter-F37626?style=flat&logo=jupyter&logoColor=white" alt="Jupyter Notebook">
+  </a>
+  <a href="https://scikit-learn.org/">
+    <img src="https://img.shields.io/badge/ML-Scikit--Learn-orange?style=flat&logo=scikit-learn" alt="Scikit-Learn">
+  </a>
+  <a href="https://www.statsmodels.org/">
+    <img src="https://img.shields.io/badge/Statistics-Statsmodels-green?style=flat" alt="Statsmodels">
+  </a>
+  <a href="https://www.kaggle.com/">
+    <img src="https://img.shields.io/badge/Dataset-Kaggle-blue?style=flat&logo=kaggle" alt="Kaggle">
+  </a>
+</div>
+
+---
+
+This project focuses on predicting customer churn within a banking environment using personal, behavioral, and financial attributes. By identifying the key drivers of attrition, banks can shift from reactive management to proactive retention strategies.
+
+The analysis involves a rigorous statistical pipeline, moving from Exploratory Data Analysis (EDA) and Cochran-Mantel-Haenszel (CMH) testing to advanced SMOTENC resampling and XGBoost/Logistic Regression modeling.
 
 <!--more-->
 

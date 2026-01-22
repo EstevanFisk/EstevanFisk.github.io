@@ -35,6 +35,27 @@ share: false
 draft: false
 ---
 
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 4px; margin-bottom: 0px; margin-top: -50px; transform: scale(1.25); transform-origin: center;">
+  <a href="https://en.wikipedia.org/wiki/Data_science"><img src="https://img.shields.io/badge/Role-Data_Scientist-0077B5?style=flat&logo=googlesheets&logoColor=white" alt="Role: Data Scientist"></a>
+  <a href="https://en.wikipedia.org/wiki/Statistics"><img src="https://img.shields.io/badge/Education-M.S._Statistics-C41E3A?style=flat&logo=icloud&logoColor=white" alt="Education: M.S. Statistics"></a>
+  <a href="https://rmarkdown.rstudio.com/"><img src="https://img.shields.io/badge/Methodology-Auditable_Code--Folding-276DC3?style=flat&logo=rstudio&logoColor=white" alt="Methodology: Auditable Code-Folding"></a>
+</div>
+
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 4px; margin-bottom: 0px; margin-top: -50px; transform: scale(1.25); transform-origin: center;">
+  <a href="https://www.r-project.org/"><img src="https://img.shields.io/badge/Language-R-276DC3?style=flat&logo=r&logoColor=white" alt="R Language"></a>
+  <a href="https://rmarkdown.rstudio.com/"><img src="https://img.shields.io/badge/Reporting-R_Markdown-276DC3?style=flat&logo=rstudio&logoColor=white" alt="R Markdown"></a>
+  <a href="https://www.tidymodels.org/"><img src="https://img.shields.io/badge/Framework-Tidymodels-orange?style=flat" alt="Tidymodels Framework"></a>
+  <a href="https://xgboost.ai/"><img src="https://img.shields.io/badge/Engine-XGBoost-black?style=flat" alt="XGBoost Engine"></a>
+</div>
+
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 4px; margin-bottom: -20px; margin-top: -50px; transform: scale(1.25); transform-origin: center;">
+  <a href="https://shiny.posit.co/"><img src="https://img.shields.io/badge/App-Shiny_Dashboard-176BEF?style=flat&logo=rstudio&logoColor=white" alt="Shiny Dashboard"></a>
+  <a href="https://plotly.com/"><img src="https://img.shields.io/badge/Viz-Interactive_Plotly-4472c4?style=flat&logo=plotly&logoColor=white" alt="Interactive Plotly"></a>
+  <a href="https://en.wikipedia.org/wiki/K-means_clustering"><img src="https://img.shields.io/badge/ML-K--Means_Clustering-green?style=flat" alt="K-Means Clustering"></a>
+  <a href="https://umap-learn.readthedocs.io/"><img src="https://img.shields.io/badge/Projection-UMAP-yellow?style=flat" alt="UMAP Projection"></a>
+</div>
+
+---
 
 Navigating complex data landscapes—across both the **private sector and classified environments within the DoD**—has reinforced the reality that analytical results are only as valuable as the transparency behind them. In high-stakes settings, the "black box" is a liability; every number must be defensible, and every methodology must be auditable.
 
