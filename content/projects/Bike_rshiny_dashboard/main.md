@@ -43,7 +43,7 @@ image:
 draft: false
 ---
 
-<div style="display: flex; justify-content: center; flex-wrap: nowrap; gap: 6px; margin-top: -10px; margin-bottom: -10px; transform: scale(1.25); transform-origin: center;">
+<div style="display: flex; justify-content: center; flex-wrap: nowrap; gap: 6px; margin-top: -10px; margin-bottom: -10px; transform: scale(1.00); transform-origin: center;">
   <a href="https://www.r-project.org/">
     <img src="https://img.shields.io/badge/Language-R-276DC3.svg?style=flat&logo=r" alt="R Language">
   </a>

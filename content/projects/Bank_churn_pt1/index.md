@@ -28,7 +28,7 @@ share: false
 draft: false
 ---
 
-<div style="display: flex; justify-content: center; flex-wrap: nowrap; gap: 4px; margin-top: 10px; margin-bottom: 10px; transform: scale(1.25); transform-origin: center;">
+<div style="display: flex; justify-content: center; flex-wrap: nowrap; gap: 4px; margin-top: 10px; margin-bottom: 10px; transform: scale(1.00); transform-origin: center;">
   <a href="https://www.python.org/">
     <img src="https://img.shields.io/badge/Python-3.10+-blue?style=flat&logo=python&logoColor=white" alt="Python">
   </a>
