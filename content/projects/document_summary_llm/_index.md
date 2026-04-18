@@ -1,5 +1,5 @@
 ---
-title: "DocChat"
+title: "PolicyProof"
 date: 2026-01-18
 build:
   list: never

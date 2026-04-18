@@ -1,5 +1,5 @@
 ---
-title: "DocChat: Intelligent Document Retrieval & Verification for Technical Data"
+title: "PolicyProof: Intelligent Document Retrieval & Verification for Technical Data"
 summary: "Self-correcting multi-agent RAG for audits. Built with LangGraph, Docling & Modal."
 date: 2026-01-18
 authors:
@@ -34,7 +34,7 @@ build:
   list: always
   render: always
 image:
-  filename: docchat_featured.png
+  filename: policyproof_featured.png
   #weight: 1
 draft: false
 ---
@@ -69,14 +69,14 @@ draft: false
 ## 🎖️ The Inspiration: From Defense Analysis to Data Science
 During my time as a **Cost Analyst for the U.S. Air Force**, I navigated the "Document Maze"—thousands of hours spent auditing dense technical proposals, program descriptions, and complex contract policy manuals. In high-stakes defense environments, missing a single footnote in a 500-page document isn't just an inconvenience; it can lead to multi-million dollar discrepancies.
 
-I built **DocChat** because I knew there was a better way to ensure 100% accuracy without the human burnout. This tool moves beyond simple "Chat-with-PDF" wrappers to create a system that **thinks like an analyst**: verifying its own claims and handling complex layouts that traditional AI often fails to parse.
+I built **PolicyProof** because I knew there was a better way to ensure 100% accuracy without the human burnout. This tool moves beyond simple "Chat-with-PDF" wrappers to create a system that **thinks like an analyst**: verifying its own claims and handling complex layouts that traditional AI often fails to parse.
 
 ---
 
 ## 🚀 The Industry Problem: Why I Built This
-Generic AI often fails in specialized sectors like Defense, Finance, or Law because it lacks **rigor**. I built **DocChat** because I knew there was a better way to ensure 100% accuracy without the human burnout. I moved beyond a simple "Chat-with-PDF" wrapper to create a system that **thinks like an analyst**:
+Generic AI often fails in specialized sectors like Defense, Finance, or Law because it lacks **rigor**. I built **PolicyProof** because I knew there was a better way to ensure 100% accuracy without the human burnout. I moved beyond a simple "Chat-with-PDF" wrapper to create a system that **thinks like an analyst**:
 
-* **Trust, but Verify:** Just as an analyst cross-references sources, DocChats’ **Verification Agent** checks every AI claim against the original source text.
+* **Trust, but Verify:** Just as an analyst cross-references sources, PolicyProofs’ **Verification Agent** checks every AI claim against the original source text.
 * **Context is King:** Using **Docling**, I ensured the AI understands table structures and complex layouts—elements where standard RAG systems usually break.
 * **The "Full-Stack" Advantage:** By deploying this on **Modal** with a **Dual-LLM (Gemini/OpenAI) failover**, I’ve demonstrated the ability to take a high-level business need and turn it into a resilient, scalable, and cost-effective cloud application.
 
@@ -129,5 +129,5 @@ graph TD
 
 
 {{< cards >}}
-  {{< card url="/projects/document_summary_llm/demo" title="DocChat App" icon="adjustments-vertical" subtitle="Experience DocChat live!">}}
+  {{< card url="/projects/document_summary_llm/demo" title="PolicyProof App" icon="adjustments-vertical" subtitle="Experience PolicyProof live!">}}
 {{< /cards >}}
